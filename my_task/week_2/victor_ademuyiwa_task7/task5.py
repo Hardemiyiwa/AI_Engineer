@@ -1,6 +1,6 @@
 # Contact Quick Loookup
 name = ("Tolu", "Wale", "Yinka")
-phone_no = ("08147894567", "09154678943", "09034678923")
+phone_no = (+2348147894567, +2349154678943, +2349034678923)
 # Combining the name and phone
 name_phone_list = list(zip(name, phone_no))
 # Creating a dictionary
