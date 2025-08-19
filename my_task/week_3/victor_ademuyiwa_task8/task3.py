@@ -17,7 +17,15 @@ items_price.update({
 
 # Cart
 cart_total = 0
+print(items)
+# selected_item = input("Enter the items you want to buy \"seprated by space\": ").split()
 
 # Adding the price of selected items to the cart
+cart_total += items_price["Book"]
+cart_total += items_price["Pen"]
+cart_total += items_price["Bag"]
+
+print(f"Item: {items}\nTotal Price: ₦{cart_total}")
+
 
 
