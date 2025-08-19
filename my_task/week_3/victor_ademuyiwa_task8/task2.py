@@ -1,11 +1,11 @@
-# collecting user details (name, age, score)
-name = input("Enter your name: ")
-age = int(input("Enter your age: "))
-score = int(input("Enter your test score: "))
+# # collecting user details (name, age, score)
+# name = input("Enter your name: ")
+# age = int(input("Enter your age: "))
+# score = int(input("Enter your test score: "))
 
-# checking if the student is qualify or not
-eligibility = (age <  18) and  (score > 70)
-print(f"Candidate: {name}\nAge: {age}\nScore: {score}\nEligible: {eligibility}")
+# # checking if the student is qualify or not
+# eligibility = (age <  18) and  (score > 70)
+# print(f"Candidate: {name}\nAge: {age}\nScore: {score}\nEligible: {eligibility}")
 """
 The code above is to check is a candidate is qualify for a program or not
 First step: the user details was collected
