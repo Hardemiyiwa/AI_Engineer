@@ -1,6 +1,6 @@
 voters = set()
 # creating  slot available for voters
-for x in range(1000):
+while True:
     # collecting the user data
     voter_names = input("Enter your name (Enter \"done\" once to submit the all the vote): ").title().strip()
     if voter_names == "Done":
