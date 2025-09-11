@@ -6,4 +6,4 @@ booked = int(input("Enter a seat number you want to book: "))
 # Removing booked seats from the set
 seat_removed = seat_numbers.remove(booked)
 # showing remaing seats after each booking
-print(f"Remaing seat nummber: {seat_numbers}")
+print(f"Remaining seat nummber: {seat_numbers}")
